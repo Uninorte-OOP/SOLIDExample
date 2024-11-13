@@ -18,7 +18,7 @@ public class Plane extends Vehicle {
     
     @Override
     public void accelerate() {
-        this.setRemainingFuel(this.getRemainingFuel() - 1);
+        this.setRemainingFuel(this.getRemainingFuel() - 10);
     }
     
 }

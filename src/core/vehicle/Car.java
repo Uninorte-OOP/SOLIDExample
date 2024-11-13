@@ -52,7 +52,7 @@ public class Car extends Vehicle implements RadioSwitch {
 
     @Override
     public void accelerate() {
-        this.setRemainingFuel(this.getRemainingFuel() - 1);
+        this.setRemainingFuel(this.getRemainingFuel() - 2);
     }
     
 }

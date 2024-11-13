@@ -17,7 +17,7 @@ import core.vehicle.handlers.EventHandler;
 public class Main {
     
     public static void main(String[] args) {
-        RacingCar car = new RacingCar(100);
+        RacingCar car = new RacingCar(500);
         EventHandler handler = new EventHandler(car);
         Driver pilot = new Driver(car);
         
