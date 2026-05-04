@@ -16,8 +16,8 @@ public class RacingCar extends Vehicle {
 
     @Override
     public void accelerate() {
+        this.setRemainingFuel(this.getRemainingFuel() - 10);
         this.setPower(this.getPower() + 10);
-        this.setRemainingFuel(this.getRemainingFuel() - 5);
     }
     
 }

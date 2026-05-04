@@ -34,7 +34,8 @@ public class Drone extends Vehicle implements CameraSwitch {
     
     @Override
     public void accelerate() {
-        this.setRemainingFuel(this.getRemainingFuel() - 1);
+        this.setRemainingFuel(this.getRemainingFuel() - 2);
+        this.setPower(this.getPower() + 1);
     }
     
 }
